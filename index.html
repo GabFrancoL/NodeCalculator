@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="visor">
+            <span></span>
+        </div>
+        <div id="keyboard">
+            <div id="operators">
+                <button>+</button>
+                <button>-</button>
+                <button>x</button>
+                <button>÷</button>
+                <button>^</button>
+                <button>√</button>
+                <button></button>
+            </div>
+            <div id="numbers">
+                <input type="button" value="7" onClick="getInput(7)" class="n_buttons"/>
+                <input type="button" value="8" onClick="getInput(8)" class="n_buttons"/>
+                <input type="button" value="9" onClick="getInput(9)" class="n_buttons"/>
+                <input type="button" value="4" onClick="getInput(4)" class="n_buttons"/>
+                <input type="button" value="5" onClick="getInput(5)" class="n_buttons"/>
+                <input type="button" value="6" onClick="getInput(6)" class="n_buttons"/>
+                <input type="button" value="1" onClick="getInput(1)" class="n_buttons"/>
+                <input type="button" value="2" onClick="getInput(2)" class="n_buttons"/>
+                <input type="button" value="3" onClick="getInput(3)" class="n_buttons"/>
+                <input type="button" value="." onClick="getInput('.')" class="n_buttons"/>
+                <input type="button" value="0" onClick="getInput(0)" class="n_buttons"/>
+                <input type="button" value="=" onClick="getInput('=')" class="n_buttons"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
